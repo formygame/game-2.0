@@ -27,14 +27,14 @@ rush.Preloader = (function(){
 
   Preloader.prototype.loadGraphics = function(){
     var imagesList = [
-      {name:"coin", path:"images/coin.png"},
-      {name:"obstacle", path:"images/obstacle.png"},
-      {name:"platform", path:"images/platform.png"},
-      {name:"platformLeft", path:"images/platform-left.png"},
-      {name:"platformRight", path:"images/platform-right.png"},
-      {name:"platformMiddle", path:"images/platform-middle.png"},
-      {name:"hero", path:"images/running.png"},
-      {name:"trees", path:"images/trees.png"},
+      {name:"coin", path:"./coin.png"},
+      {name:"obstacle", path:"./obstacle.png"},
+      {name:"platform", path:"./platform.png"},
+      {name:"platformLeft", path:"./platform-left.png"},
+      {name:"platformRight", path:"./platform-right.png"},
+      {name:"platformMiddle", path:"./platform-middle.png"},
+      {name:"hero", path:"./running.png"},
+      {name:"trees", path:"./trees.png"},
     ];
 
     rush.graphics = {};
